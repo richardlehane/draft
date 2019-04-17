@@ -3,7 +3,7 @@ build: off
 before_build:
 - choco install pandoc
 build_script:
-- pandoc -o output.docx draft.txt
+- pandoc -o output.docx draft.md
 artifacts:
 - path: output.docx
   name: output
