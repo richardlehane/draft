@@ -3,6 +3,5 @@
 Some content.
 
 And a list:
-
-	- hello
-	- goodbye.
+- hello
+- goodbye.
