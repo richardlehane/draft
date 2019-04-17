@@ -1,8 +1,16 @@
 # draft
 
-github + appveyor + pandoc: your own little markdown to .docx online publishing pipeline.
+github + [appveyor](https://appveyor.com) + [pandoc](https://pandoc.org): your own little markdown to .docx online publishing pipeline.
 
-This 'lil allows you to edit a text file in markdown, save all your changes in git, and, when you are ready to publish, just tag a release. This will trigger appveyor which will run pandoc to turn your markdown file into a .docx. All of this can be done locally in git or online using the github editor.
+This little repo allows you to:
+- edit a text file in markdown, 
+- save all your changes in git,
+- when you are ready to publish, just tag a release
+- and you'll magically get a converted .docx file added to your release.
+
+It works by using appveyor to run pandoc to turn your markdown file into a .docx. 
+
+All of the editing and release process can be done locally in git or online using the github editor.
 
 To get this working for yourself:
 - clone the repo
